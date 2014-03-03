@@ -73,6 +73,8 @@ header #logo img
 nav
 {
 	background: #80BCA3;
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
+	padding: 0 0.5em;
 	position: relative;
 }
 nav ul
@@ -84,20 +86,20 @@ nav ul
 nav ul li 
 {
 	display: inline-block;
-	margin: 0 0.5em 0 0;
+	margin: 0 1em 0 0;
 }
 nav ul li a
 {
 	color: white;
 	display: block;
-	padding: 0.5em;	
+	padding: 0.5em 0;	
 	text-decoration: none;
 }
 nav ul #publicar_nav
 {
 	position: absolute;
 	right: 0;
-	top: -0.1em;
+	top: -0.3em;
 }
 nav ul #publicar_nav a
 {
@@ -105,7 +107,7 @@ nav ul #publicar_nav a
 	border-radius: 5px;
 	box-shadow: rgba(0,0,0,0.5) 5px 5px 20px;
 	font-style: italic;
-	padding: 0.6em 0.8em;
+	padding: 0.8em 0.5em;
 	text-shadow: rgba(0,0,0,0.5) 2px 2px 5px;
 }
 #contenido
@@ -156,7 +158,6 @@ nav ul #publicar_nav a
 {
 	font-size: 1.2em;
 	font-style: italic;
-	margin-bottom: 0;
 	padding: 1em 1em 0 0;	
 }
 #contenido .item .titulo_item a
